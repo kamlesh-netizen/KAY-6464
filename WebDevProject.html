@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Business 3D</title>
+<style>
+    body{
+        margin:0;
+        font-family:Arial;
+        background:#000;
+        color:#fff;
+    }
+    /* Navbar */
+    nav{
+        width:100%;
+        padding:10px 20px;
+        background:#000;
+        display:flex;
+        justify-content:space-between;
+        color:#fff;
+        position:sticky;
+        top:0;
+        z-index:10;
+    }
+    nav a{
+        color:#0ff;
+        text-decoration:none;
+        margin-left:20px;
+        font-size:14px;
+    }
+
+    /* Section */
+    section{
+        text-align:center;
+        padding:80px 20px;
+    }
+
+    /* Glow Box */
+    .glow-box{
+        width:60%;
+        margin:auto;
+        border-radius:15px;
+        padding:40px;
+        border:2px solid #0ff;
+        box-shadow:0 0 25px #0ff;
+    }
+
+    img{
+        width:250px;
+        border-radius:10px;
+        box-shadow:0 0 20px #0ff;
+    }
+
+    input,textarea{
+        width:80%;
+        padding:10px;
+        margin-top:10px;
+        border-radius:8px;
+        border:1px solid #0ff;
+        background:#111;
+        color:#0ff;
+    }
+
+    button{
+        margin-top:15px;
+        padding:10px 20px;
+        border:none;
+        background:#0ff;
+        color:#000;
+        border-radius:10px;
+        cursor:pointer;
+        font-weight:bold;
+    }
+
+    button:hover{
+        box-shadow:0 0 20px #0ff;
+    }
+
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+    <div><b>Business 3D</b></div>
+    <div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+    <img src="https://img.freepik.com/premium-vector/data-analysis-digital-financial-reporting-seo-marketing-business-management-development-3d-isometric-laptop-computer-pc-with-graph-chart-statistic-design-website_284092-115.jpg">
+    <h2>Grow our Digital Business</h2>
+    <p>We provide advanced digital solutions with 3D UI concepts.</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="glow-box">
+        <h2>About Our Business</h2>
+        <p>
+            We provide digital business solutions, data analysis, SEO, marketing development,
+            and financial reporting systems using advanced technologies and 3D UI concepts.
+        </p>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <div class="glow-box">
+        <h2>Our Services</h2>
+        <ul style="text-align:left; display:inline-block;">
+            <li>3D UI Website Development</li>
+            <li>SEO & Digital Marketing</li>
+            <li>Business Analytics Solutions</li>
+            <li>Custom Dashboard & Reporting Tools</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CONTACT PAGE (WORKING) -->
+<section id="contact">
+    <div class="glow-box">
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Your Name">
+        <br>
+        <input type="email" placeholder="Your Email">
+        <br>
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <br>
+        <button>Send Message</button>
+    </div>
+</section>
+
+</body>
+</html>
